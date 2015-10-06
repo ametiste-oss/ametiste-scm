@@ -1,0 +1,5 @@
+description =
+
+subprojects {
+    group 'org.ametiste.scm'
+}
