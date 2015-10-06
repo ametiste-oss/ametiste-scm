@@ -1,2 +1,1 @@
-# ametiste-scm
-System's Configuration Management Project
+# System's Configuration Management Project
