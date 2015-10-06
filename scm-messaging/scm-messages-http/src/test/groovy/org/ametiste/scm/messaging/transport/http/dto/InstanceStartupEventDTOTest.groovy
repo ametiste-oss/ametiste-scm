@@ -8,7 +8,7 @@ class InstanceStartupEventDTOTest extends Specification {
     def "DTO should convert to correct event"() {
         given: "original event"
         InstanceStartupEvent event = InstanceStartupEvent.builder()
-            .addInstanceId("DSEE")
+            .addInstanceId("ROLL")
             .addVersion("0.2.6-1-RELEASE")
             .addProperty("host", new URI("http://192.168.1.2:8080"))
             .addProperty("retries", 15)

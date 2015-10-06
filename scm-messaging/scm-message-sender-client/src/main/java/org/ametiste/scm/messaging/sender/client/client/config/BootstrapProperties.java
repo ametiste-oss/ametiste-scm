@@ -13,7 +13,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * <li>targetUri - URI to send event. Default value not specified. If parameter will not be define bootstrap fall
  * on URI creation step.</li>
  * </ul>
- * </p>
+ * <p>
  * In common cases user should specify only one parameter {@code targetUri}. Other parameters may be omitted.
  */
 @ConfigurationProperties("org.ametiste.scm.messaging.sender.bootstrap")

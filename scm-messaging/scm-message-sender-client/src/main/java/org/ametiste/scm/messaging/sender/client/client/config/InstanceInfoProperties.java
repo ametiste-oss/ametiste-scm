@@ -12,7 +12,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * <li>nodeId - identifier of node where instance located.</li>
  * <li>uri - URI to communicate with instance.</li>
  * </ul>
- * </p>
+ * <p>
  * This properties doesn't contain default values. If user not define required properties (InstanceId and version) it
  * can't lead to unpredictable behavior.
  */

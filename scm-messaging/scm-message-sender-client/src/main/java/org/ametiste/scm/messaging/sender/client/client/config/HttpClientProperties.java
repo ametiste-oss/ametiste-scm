@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * <li>connect-timeout - connection timeout for send event request (in milliseconds).</li>
  * <li>read-timeout - read timeout for send event request (in milliseconds).</li>
  * </ul>
- * </p>
+ * <p>
  * This properties is designed provide usable default configuration that provides correct timeout values.
  */
 @ConfigurationProperties("org.ametiste.scm.messaging.sender.client")

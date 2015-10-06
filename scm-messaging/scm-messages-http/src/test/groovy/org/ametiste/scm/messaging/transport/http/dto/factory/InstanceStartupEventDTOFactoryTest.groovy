@@ -10,7 +10,7 @@ class InstanceStartupEventDTOFactoryTest extends Specification {
     private InstanceStartupEventDTOFactory factory = new InstanceStartupEventDTOFactory();
 
     private InstanceStartupEvent event = InstanceStartupEvent.builder()
-            .addInstanceId("DSEE")
+            .addInstanceId("ROLL")
             .addVersion("0.2.6")
             .build();
 
