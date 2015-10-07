@@ -1,7 +1,0 @@
-description = 'SCM Message Receiver'
-
-dependencies {
-    compile project(':scm-messaging:scm-messages-http')
-
-    compile libraries.springWeb
-}

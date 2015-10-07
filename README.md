@@ -1,2 +1,2 @@
-# System's Configuration Management project
-[![Build Status](https://travis-ci.org/ametiste-oss/ametiste-scm.svg?branch=master)](https://travis-ci.org/ametiste-oss/ametiste-scm)
+## System's Configuration Management project
+This project is an umbrella and the git repository is used only for documentation. 
