@@ -7,3 +7,4 @@ The sub-projects of System's Configuration Management live in a different Github
 
 * [scm-messaging](https://github.com/ametiste-oss/ametiste-scm-messaging)
 * [scm-coordination](https://github.com/ametiste-oss/ametiste-scm-coordination)
+* [scm-message-broker](https://github.com/ametiste-oss/ametiste-scm-message-broker)
