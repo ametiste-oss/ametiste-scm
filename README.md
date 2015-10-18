@@ -40,6 +40,22 @@ Below show structure diagram with main components:
 
 ![SCM infrastructure scheme](https://cloud.githubusercontent.com/assets/11256858/10566739/22decf70-75f8-11e5-9234-df14c08c929e.png)
 
-System also contains two service: **Message Broker** and **Event Log**. **Broker** organize event broadcast, **Log** save events to persistent storage.
+###### Service Instance
+*Service Instance* is instance of any service in target system that need to be tracked. It contains *Sender Client* for preparing information (event construction) and messaging to broker.
+
+###### Message Broker
+*Message Broker* receives events from Service Instances and send it to group of subscribers. List of subscribers Broker receives from *Distributed Coordinator*.
+Broker collect events during specified time period, than get from coordinator actual list of subscribes (listeners) and send out events to them.
+
+###### Distributed Coordinator
+*Distributed Coordinator* register applications that want to receiver events and hold information about them. As coordinator will be use third-party product: Netfilx Eureka.
+
+###### Event Log
+*Event Log* is a service that is a subscriber with two main functions:
+- store all events in persistent storage;
+- provide replay events for specified time period.
+
+###### Listener X
+Listener X is some other services than interested to receive events from system for specific operations (aggregation, custom projections, etc.).
 
 It's minimal structure of system that may be simply extend.
