@@ -56,6 +56,6 @@ Broker collect events during specified time period, than get from coordinator ac
 - provide replay events for specified time period.
 
 ###### Listener X
-Listener X is some other services than interested to receive events from system for specific operations (aggregation, custom projections, etc.).
+*Listener X* is some other services than interested to receive events from system for specific operations (aggregation, custom projections, etc.).
 
 It's minimal structure of system that may be simply extend.
