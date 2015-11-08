@@ -3,21 +3,6 @@
 This project is an umbrella and the git repository is used only for documentation.
 The sub-projects of System's Configuration Management live in a different Github repositories (see [projects](#projects)).
 
-## Table Of Content
-* [What is SCM?](#what-is-scm)
-* [Projects](#projects)
-* [Structure](#structure)
-
-## What is SCM?
-
-*System's Configuration Management (SCM)* is a system that provides centralized aggregation, storage and distribution of configuration changes in the system.
-
-Let's imagine that you have a system that contains a large number of instances and you what track all configuration changes in it: check changes for specified time period, compare changes with  template after update or build graph of connection between instances. SCM provide ready for use infrastructure that help resolve all above tasks. You need only integrate to the service instance mechanism for sending messages and configure it. All other operation takes over system components.
-
-SCM contains *persistent storage* for events, so history will be saved and can be obtained at any time.
-
-Management system provides components for messaging and subscribing to event broadcast. It allows extend system with new applications to construst other projection of system configuration or any else that use configuration changes information.
-
 ## Projects
 
 Project contains four projects that provides main components of the system:
@@ -28,6 +13,16 @@ Project contains four projects that provides main components of the system:
 * [scm-event-log](https://github.com/ametiste-oss/ametiste-scm-event-log) - event log application.
 
 More detailed information about any of project you can read in corresponding repository.
+
+## What is SCM?
+
+*System's Configuration Management (SCM)* is a system that provides centralized aggregation, storage and distribution of configuration changes in the system.
+
+Let's imagine that you have a system that contains a large number of instances and you what track all configuration changes in it: check changes for specified time period, compare changes with  template after update or build graph of connection between instances. SCM provide ready for use infrastructure that help resolve all above tasks. You need only integrate to the service instance mechanism for sending messages and configure it. All other operation takes over system components.
+
+SCM contains *persistent storage* for events, so history will be saved and can be obtained at any time.
+
+Management system provides components for messaging and subscribing to event broadcast. It allows extend system with new applications to construst other projection of system configuration or any else that use configuration changes information.
 
 ## Structure
 
